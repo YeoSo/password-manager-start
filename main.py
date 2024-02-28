@@ -20,23 +20,12 @@ def generate_password():
     nr_symbols = random.randint(2, 4)
     nr_numbers = random.randint(2, 4)
 
-    # password_list = []
-    # for char in range(nr_letters):
-    #     password_list.append(random.choice(letters))
-    # for char in range(nr_symbols):
-    #     password_list += random.choice(symbols)
-    # for char in range(nr_numbers):
-    #     password_list += random.choice(numbers)
-
     password_list = [random.choice(letters) for char in range(nr_letters)]
     password_list += [random.choice(symbols) for b in range(nr_symbols)]
     password_list += [random.choice(numbers) for c in range(nr_numbers)]
 
     random.shuffle(password_list)
 
-    # password = ""
-    # for char in password_list:
-    #     password += char
     password = "".join(password_list)
     password_box.insert(0, password)
     pyperclip.copy(password)
