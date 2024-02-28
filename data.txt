@@ -1,0 +1,8 @@
+ | hahaha@email.com | 
+amazon | hahaha@email.com | password
+google | my@email.com | 12345
+amazon | hahaha@email.com | password
+google | gorilla@email.com | 1004
+AMAZON | hahaha@email.com | 23456
+amazon | hahaha@email.com | 123
+amazon | hahaha@email.com | 12345
